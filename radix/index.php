@@ -12,7 +12,7 @@ require_once 'includes/phpmailer/SMTP.php';
 
 $module = _MODULE_DEFAULT;
 $action = _ACTION_DEFAULT;
-
+$leu = 1;
 if(isset($_GET['module'])){
     if(!empty($_GET['module'])){
         $module = $_GET['module'];
